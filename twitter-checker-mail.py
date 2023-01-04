@@ -2,7 +2,7 @@
 # The script will check username availability every 5 mins.
 # And if the username is available, it'll send you an email.
 # Grab your credentials from https://developer.twitter.com/en/portal/petition/essential/basic-info
-# Note: import the API keys keys as environment variables
+# Note: import the API keys as environment variables
 
 import tweepy
 import time
