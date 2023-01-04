@@ -1,4 +1,4 @@
-# Verfasor.com, 2023
+# m64.in, 2023
 # The script will check username availability every 5 mins.
 # And if the username is available, it'll send you an email.
 # Grab your credentials from https://developer.twitter.com/en/portal/petition/essential/basic-info
@@ -60,7 +60,7 @@ def check_user(username):
                 smtp.send_message(msg)
                 print(f"Mail sent.")                    
         elif e.response.status_code == 403:
-            print(f"The twitter handle @{username} is still suspended.")
+            print(f"The twitter handle @{username} is a suspended account.")
         else:
             print(f"Error: {e.response.status_code}")
     # Let it monitor every 5 minutes
