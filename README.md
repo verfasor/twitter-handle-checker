@@ -13,7 +13,7 @@ According to birdman, Twitter will soon start freeing the name space of 1.5 bill
 ## How-to
 
 1. Get your Twitter `consumer_key`, `consumer_secret`, `access_token`, and `access_token_secret`
-2. Install Tweepym `pip3 install tweepy`
+2. Install Tweepy `pip install tweepy`
 3. Edit the [twitter-checker.py](https://github.com/verfasor/twitter-handle-checker/blob/main/twitter-checker.py) script and add the variables
 4. Run `python3 twitter-checker.py username` and wait for the results
 
