@@ -1,4 +1,4 @@
-# Verfasor.com, 2023
+# m64.in, 2023
 # The script lets you check Twitter username status and availability
 # Grab your credentials from https://developer.twitter.com/en/portal/petition/essential/basic-info
 # Note: import the API keys keys as environment variables
