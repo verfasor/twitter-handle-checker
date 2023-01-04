@@ -2,7 +2,7 @@
 
 ![Twitter Handle Checker (Username Availability)](https://github.com/verfasor/twitter-handle-checker/blob/main/twitter-handle-checker.gif)
 
-According to birdman, Twitter will soon start freeing the name space of 1.5 billion accounts. Here's a script to check if your favorite Twitter handle is available, from the command line OR receive an email notification when the username is available.
+According to birdman, Twitter will soon start freeing the name space of inactive accounts. Here's a script to check if your favorite Twitter handle is available, from the command line OR receive an email notification when the username is available.
 
 ## Prerequisites
 
