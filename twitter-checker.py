@@ -29,6 +29,6 @@ except tweepy.errors.TweepyException as e:
     if e.response.status_code == 404:
         print('\33[90m' + '\33[1m' +  f"User {username} does not exist." + '\033[0m')
     elif e.response.status_code == 403:
-        print('\033[91m' + '\33[1m' + f"User {username} is still suspended." + '\033[0m')
+        print('\033[91m' + '\33[1m' + f"User {username} is a suspended account." + '\033[0m')
     else:
         print(f"Error: {e.response.status_code}")
