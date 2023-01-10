@@ -22,7 +22,7 @@ According to birdman, Twitter will soon start freeing the name space of inactive
 - Make twitter-checker.py executable, `chmod +x twitter-checker.py`
 - Add twitter-checker.py to your dot file (.zshrc, .bashrc, etc.) 
 - Set an alias like `alias twitter="python3 twittercheck.py"`
-- Now you can check Twitter username availability with the command 'twitter username'
+- Now you can check Twitter username availability with the command `twitter username`
 
 ## Get email notifications
 
