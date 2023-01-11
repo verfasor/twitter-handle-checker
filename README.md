@@ -6,9 +6,9 @@ According to birdman, Twitter will soon start freeing the name space of inactive
 
 ## Prerequisites
 
-- Access to the Twitter API
+- Access to the [Twitter API](https://developer.twitter.com/en/portal/petition/essential/basic-info)
 - Python (tested on v3.10.8)
-- Tweepy (tested on v4.12.1)
+- Tweepy (tested on v4.12.1) (`pip install tweepy`)
 
 ## How-to
 
