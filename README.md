@@ -26,4 +26,4 @@ According to birdman, Twitter will soon start freeing the name space of inactive
 
 ## Get email notifications
 
-Use the [twitter-checker-mail.py](https://github.com/verfasor/twitter-handle-checker/blob/main/twitter-checker-mail.py) and tweak the variables. You'll receive an email when the username is available. Be mindful about `time.sleep(300)`, though. Every five minutes, an API call is made. 
+Use the [twitter-checker-mail.py](https://github.com/verfasor/twitter-handle-checker/blob/main/twitter-checker-mail.py) and tweak the variables. You'll receive an email when the username is available. Be mindful about `schedule.every(5).minutes.do(check_user)`, though. Every five minutes, an API call is made. 
