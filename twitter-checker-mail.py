@@ -6,6 +6,7 @@
 
 import tweepy
 import time
+import schedule
 import smtplib
 from email.message import EmailMessage
 
@@ -35,7 +36,7 @@ auth = tweepy.OAuth1UserHandler(
 api = tweepy.API(auth)
 
 # Function to check username availability
-def check_user(username):
+def check_user():
     try:
         user = api.get_user(screen_name=username)
         print (f"The twitter handle @{username} is active.")
@@ -63,6 +64,9 @@ def check_user(username):
             print(f"The twitter handle @{username} is a suspended account.")
         else:
             print(f"Error: {e.response.status_code}")
-    # Let it monitor every 5 minutes
-    time.sleep(300)        
-check_user(username)        
+# Let it monitor every 5 minutes
+schedule.every(5).minutes.do(check_user) 
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)      
