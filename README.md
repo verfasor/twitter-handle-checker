@@ -4,11 +4,12 @@
 
 According to birdman, Twitter will soon start freeing the name space of inactive accounts. Here's a script to check if your favorite Twitter handle is available, from the command line OR receive an email notification when the username is available.
 
-## Prerequisites
+## Prerequisites & dependencies
 
 - Access to the [Twitter API](https://developer.twitter.com/en/portal/petition/essential/basic-info)
 - Python (tested on v3.10.8)
 - Tweepy (tested on v4.12.1) (`pip install tweepy`)
+- schedule 1.1.0 (`pip install schedule`)
 
 ## How-to
 
