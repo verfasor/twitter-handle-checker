@@ -1,3 +1,7 @@
+# Important Update
+
+Starting February 9, Twitter will no longer support free access to the Twitter API, both v2 and v1.1. A paid basic tier will be available instead. I won't be paying for it. So I no longer plan to maintain or test this project. The script should work fine anyway.
+
 # Twitter Handle Checker (Username Availability)
 
 ![Twitter Handle Checker (Username Availability)](https://github.com/verfasor/twitter-handle-checker/blob/main/twitter-handle-checker.gif)
